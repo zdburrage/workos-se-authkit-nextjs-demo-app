@@ -74,8 +74,13 @@ export default function RootLayout({
                           <SignInButton />
                         </header>
                       </Flex>
-                      <Flex flexGrow="1" align="center" justify="center">
-                        <main>{children}</main>
+                      <Flex
+                        flexGrow="1"
+                        align="start"
+                        justify="start"
+                        style={{ overflowY: "auto", width: "100%" }}
+                      >
+                        <main style={{ width: "100%" }}>{children}</main>
                       </Flex>
                     </Flex>
                   </Card>

@@ -3,20 +3,20 @@ import { Button, Flex, Box, Text } from "@radix-ui/themes";
 import NextLink from "next/link";
 import { OrganizationSwitcherWidget } from "./Widgets";
 import { workos } from "../workos";
+import CognitoSignInButton from "@/app/components/CognitoSignInButton";
 
 export async function Navigation() {
   const { organizationId, user } = await withAuth({});
 
-  if (!organizationId) {
-    return;
-  }
-
   const PROSPECT_LOGO = process.env.PROSPECT_LOGO;
 
-  const authToken = await workos.widgets.getToken({
-    userId: user.id,
-    organizationId,
-  });
+  let authToken: string | null = null;
+  if (user && organizationId) {
+    authToken = await workos.widgets.getToken({
+      userId: user.id,
+      organizationId,
+    });
+  }
 
   return (
     <Flex gap="4">
@@ -30,13 +30,19 @@ export async function Navigation() {
       <Button asChild variant="soft">
         <NextLink href="/">Home</NextLink>
       </Button>
+      <Button asChild variant="soft">
+        <NextLink href="/dsync-events">DSync Events</NextLink>
+      </Button>
+      <CognitoSignInButton />
       {user && (
         <>
           <Button asChild variant="soft">
+            <NextLink href="/api-keys">API Keys</NextLink>
+          </Button>
+          <Button asChild variant="soft">
             <NextLink href="/user-settings">Settings</NextLink>
           </Button>
-
-          <OrganizationSwitcherWidget authToken={authToken} />
+          {authToken && <OrganizationSwitcherWidget authToken={authToken} />}
         </>
       )}
     </Flex>
