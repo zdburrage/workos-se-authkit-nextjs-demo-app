@@ -1,0 +1,44 @@
+{
+  "$schema": "./seed-config.schema.json",
+  "settings": {
+    "preserveDirectoryManagedUsers": true,
+    "defaultPassword": "Demo1234!",
+    "verifyEmails": true
+  },
+  "users": [
+    {
+      "email": "alice@burrageenterprises.com",
+      "firstName": "Alice",
+      "lastName": "Thompson",
+      "memberships": ["Burrage Enterprises"]
+    },
+    {
+      "email": "bob@burrageenterprises.com",
+      "firstName": "Bob",
+      "lastName": "Martinez",
+      "memberships": ["Burrage Enterprises", "Contoso"]
+    },
+    {
+      "email": "charlie@example.org",
+      "firstName": "Charlie",
+      "lastName": "Nguyen",
+      "memberships": []
+    },
+    {
+      "email": "dana.wilson+demo@gmail.com",
+      "firstName": "Dana",
+      "lastName": "Wilson",
+      "memberships": ["Burrage Enterprises"]
+    },
+    {
+      "email": "zac.burrage+blocked@gmail.com",
+      "firstName": "Blocked",
+      "lastName": "User",
+      "metadata": {
+        "deny_login": "true",
+        "deny_message": "Not today, hacker!"
+      },
+      "memberships": []
+    }
+  ]
+}

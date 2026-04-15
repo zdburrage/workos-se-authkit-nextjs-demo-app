@@ -1,43 +1,43 @@
 {
   "company": {
-    "name": "Grammarly",
-    "tagline": "AI writing assistance for everyone",
-    "description": "Grammarly is the world's leading AI writing assistance company, helping people and teams communicate more effectively. Powered by WorkOS AuthKit."
+    "name": "WorkOS",
+    "tagline": "Your app, Enterprise Ready",
+    "description": "WorkOS provides the APIs and tools you need to make your app enterprise ready — Single Sign-On, Directory Sync, Audit Logs, and more."
   },
   "hero": {
-    "heading": "Secure access for your writing platform",
-    "subheading": "Enterprise-grade authentication for Grammarly. Single sign-on, directory sync, and multi-factor authentication — all powered by WorkOS.",
+    "heading": "Enterprise-ready authentication, in minutes",
+    "subheading": "AuthKit gives you a complete authentication stack — Single Sign-On, Directory Sync, MFA, and more — without the enterprise complexity.",
     "ctaText": "Sign In"
   },
   "features": [
     {
       "title": "Single Sign-On",
-      "description": "Connect your identity provider for seamless access to Grammarly across your organization.",
+      "description": "Integrate with every major identity provider through a single OIDC or SAML flow.",
       "icon": "LockClosedIcon"
     },
     {
       "title": "Directory Sync",
-      "description": "Automatically provision and deprovision team members from your HR system.",
+      "description": "Automatically provision and deprovision users from any HR or identity system via SCIM.",
       "icon": "PersonIcon"
     },
     {
       "title": "Multi-Factor Auth",
-      "description": "Protect your team's writing data with an additional layer of verification.",
+      "description": "Add TOTP, WebAuthn, and passkeys with a flip of a switch — no extra code required.",
       "icon": "LockOpen1Icon"
     },
     {
       "title": "Audit Logs",
-      "description": "Track every authentication event across your Grammarly workspace.",
+      "description": "Stream every authentication event to a searchable, compliance-ready audit log.",
       "icon": "ActivityLogIcon"
     }
   ],
   "trust": {
-    "heading": "Enterprise-grade security and compliance",
+    "heading": "Trusted by thousands of modern apps",
     "stats": [
       { "value": "SOC 2", "label": "Type II Certified" },
       { "value": "99.99%", "label": "Uptime SLA" },
       { "value": "GDPR", "label": "Compliant" },
-      { "value": "70K+", "label": "Teams Trust Grammarly" }
+      { "value": "HIPAA", "label": "Compliant" }
     ]
   },
   "dashboard": {
@@ -52,13 +52,13 @@
   "quickActions": [
     {
       "title": "Settings",
-      "description": "Manage your profile, security, and team settings.",
+      "description": "Manage your profile, API keys, and team security settings.",
       "href": "/user-settings",
       "icon": "GearIcon"
     },
     {
       "title": "Integrations",
-      "description": "Connect your writing tools and manage workflows.",
+      "description": "Connect your identity providers and manage directory sync connections.",
       "href": "/integrations",
       "icon": "Link1Icon"
     },

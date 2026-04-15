@@ -28,11 +28,13 @@ export function Footer() {
         </a>
       </Card>
       <Card size="4" asChild variant="surface">
-        <a href="https://www.grammarly.com" rel="noreferrer" target="_blank">
+        <a href="https://workos.com/changelog" rel="noreferrer" target="_blank">
           <Heading size="4" mb="1" color="gray" highContrast>
-            Grammarly
+            Changelog
           </Heading>
-          <Text color="gray">AI writing assistance for individuals and teams. Write with confidence everywhere.</Text>
+          <Text color="gray">
+            Track new features, improvements, and fixes across the WorkOS platform.
+          </Text>
         </a>
       </Card>
     </Grid>

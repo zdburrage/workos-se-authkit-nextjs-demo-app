@@ -4,11 +4,6 @@
  */
 
 :root {
-  /* Grammarly brand colors */
-  --workos-purple: #15c39a;
-  --grammarly-green: #15c39a;
-  --grammarly-dark: #0e101a;
-
   /* Letter spacing scale */
   --letter-spacing-1: 0.005em;
   --letter-spacing-2: 0em;
