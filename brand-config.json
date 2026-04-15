@@ -1,43 +1,43 @@
 {
   "company": {
-    "name": "turbopuffer",
-    "tagline": "search every byte",
-    "description": "turbopuffer is a serverless vector and full-text search engine built on object storage — fast, 10x cheaper, and extremely scalable. Trusted by Cursor, Notion, Anthropic, and leading AI companies. Powered by WorkOS AuthKit."
+    "name": "WorkOS",
+    "tagline": "Your app, Enterprise Ready",
+    "description": "WorkOS provides the APIs and tools you need to make your app enterprise ready — Single Sign-On, Directory Sync, Audit Logs, and more."
   },
   "hero": {
-    "heading": "Secure access for your search infrastructure",
-    "subheading": "Enterprise-grade authentication for turbopuffer. Single sign-on, directory sync, and multi-factor authentication — built for teams running vector search at scale.",
+    "heading": "Enterprise-ready authentication, in minutes",
+    "subheading": "AuthKit gives you a complete authentication stack — Single Sign-On, Directory Sync, MFA, and more — without the enterprise complexity.",
     "ctaText": "Sign In"
   },
   "features": [
     {
       "title": "Single Sign-On",
-      "description": "Connect your identity provider for seamless, secure access to turbopuffer namespaces, query dashboards, and search infrastructure.",
+      "description": "Integrate with every major identity provider through a single OIDC or SAML flow.",
       "icon": "LockClosedIcon"
     },
     {
       "title": "Directory Sync",
-      "description": "Automatically provision and deprovision engineering team members across your vector search workspaces as your organization scales.",
+      "description": "Automatically provision and deprovision users from any HR or identity system via SCIM.",
       "icon": "PersonIcon"
     },
     {
       "title": "Multi-Factor Auth",
-      "description": "Protect sensitive API keys, namespace configurations, and production search clusters with an additional layer of authentication.",
+      "description": "Add TOTP, WebAuthn, and passkeys with a flip of a switch — no extra code required.",
       "icon": "LockOpen1Icon"
     },
     {
       "title": "Audit Logs",
-      "description": "Track every authentication event across your search infrastructure to meet enterprise security and data governance requirements.",
+      "description": "Stream every authentication event to a searchable, compliance-ready audit log.",
       "icon": "ActivityLogIcon"
     }
   ],
   "trust": {
-    "heading": "Trusted by teams searching at scale",
+    "heading": "Trusted by thousands of modern apps",
     "stats": [
       { "value": "SOC 2", "label": "Type II Certified" },
       { "value": "99.99%", "label": "Uptime SLA" },
-      { "value": "3.5T+", "label": "Documents Indexed" },
-      { "value": "25K+", "label": "Queries per Second" }
+      { "value": "GDPR", "label": "Compliant" },
+      { "value": "HIPAA", "label": "Compliant" }
     ]
   },
   "dashboard": {
@@ -58,7 +58,7 @@
     },
     {
       "title": "Integrations",
-      "description": "Connect your search infrastructure tools and manage namespace access.",
+      "description": "Connect your identity providers and manage directory sync connections.",
       "href": "/integrations",
       "icon": "Link1Icon"
     },
