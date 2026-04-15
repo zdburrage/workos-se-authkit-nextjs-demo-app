@@ -1,43 +1,43 @@
 {
   "company": {
-    "name": "Grammarly",
-    "tagline": "AI writing assistance for everyone",
-    "description": "Grammarly is the world's leading AI writing assistance company, helping people and teams communicate more effectively. Powered by WorkOS AuthKit."
+    "name": "turbopuffer",
+    "tagline": "search every byte",
+    "description": "turbopuffer is a serverless vector and full-text search engine built on object storage — fast, 10x cheaper, and extremely scalable. Trusted by Cursor, Notion, Anthropic, and leading AI companies. Powered by WorkOS AuthKit."
   },
   "hero": {
-    "heading": "Secure access for your writing platform",
-    "subheading": "Enterprise-grade authentication for Grammarly. Single sign-on, directory sync, and multi-factor authentication — all powered by WorkOS.",
+    "heading": "Secure access for your search infrastructure",
+    "subheading": "Enterprise-grade authentication for turbopuffer. Single sign-on, directory sync, and multi-factor authentication — built for teams running vector search at scale.",
     "ctaText": "Sign In"
   },
   "features": [
     {
       "title": "Single Sign-On",
-      "description": "Connect your identity provider for seamless access to Grammarly across your organization.",
+      "description": "Connect your identity provider for seamless, secure access to turbopuffer namespaces, query dashboards, and search infrastructure.",
       "icon": "LockClosedIcon"
     },
     {
       "title": "Directory Sync",
-      "description": "Automatically provision and deprovision team members from your HR system.",
+      "description": "Automatically provision and deprovision engineering team members across your vector search workspaces as your organization scales.",
       "icon": "PersonIcon"
     },
     {
       "title": "Multi-Factor Auth",
-      "description": "Protect your team's writing data with an additional layer of verification.",
+      "description": "Protect sensitive API keys, namespace configurations, and production search clusters with an additional layer of authentication.",
       "icon": "LockOpen1Icon"
     },
     {
       "title": "Audit Logs",
-      "description": "Track every authentication event across your Grammarly workspace.",
+      "description": "Track every authentication event across your search infrastructure to meet enterprise security and data governance requirements.",
       "icon": "ActivityLogIcon"
     }
   ],
   "trust": {
-    "heading": "Enterprise-grade security and compliance",
+    "heading": "Trusted by teams searching at scale",
     "stats": [
       { "value": "SOC 2", "label": "Type II Certified" },
       { "value": "99.99%", "label": "Uptime SLA" },
-      { "value": "GDPR", "label": "Compliant" },
-      { "value": "70K+", "label": "Teams Trust Grammarly" }
+      { "value": "3.5T+", "label": "Documents Indexed" },
+      { "value": "25K+", "label": "Queries per Second" }
     ]
   },
   "dashboard": {
@@ -52,13 +52,13 @@
   "quickActions": [
     {
       "title": "Settings",
-      "description": "Manage your profile, security, and team settings.",
+      "description": "Manage your profile, API keys, and team security settings.",
       "href": "/user-settings",
       "icon": "GearIcon"
     },
     {
       "title": "Integrations",
-      "description": "Connect your writing tools and manage workflows.",
+      "description": "Connect your search infrastructure tools and manage namespace access.",
       "href": "/integrations",
       "icon": "Link1Icon"
     },
